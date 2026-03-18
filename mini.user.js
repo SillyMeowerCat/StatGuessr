@@ -156,9 +156,9 @@
             cardEl.innerHTML = `${header()}<div class="sg-profile-card-body">${[
                 stat('Current ELO', elo != null ? Math.round(elo) : 'N/A', '', `color:${elo != null ? getTier(elo).color : '#888'}`),
                 stat('Peak ELO', pk != null ? Math.round(pk) : 'N/A', '', `color:${pk != null ? getTier(pk).color : '#888'}`),
+                duels != null ? stat('Duels Played', duels) : '',
                 stat(susp ? 'Suspended until' : 'Banned', susp ? esc(fmtSuspended(prof.suspendedUntil) || 'yes') : (banned ? 'yes' : 'no'), banned ? 'sg-status-yes-banned' : ''),
                 prof?.isChatBanned ? stat('Chat banned', 'yes', 'sg-status-yes-chatbanned') : '',
-                duels != null ? stat('Duels Played', duels) : '',
                 prog?.bestCountries?.length ? stat('Best Countries', renderFlags(prog.bestCountries)) : '',
                 prog?.worstCountries?.length ? stat('Worst Countries', renderFlags(prog.worstCountries)) : ''
             ].join('')}<a class="sg-georank-btn" href="https://georank.io/player/${userId}" target="_blank" rel="noopener">View on GeoRank</a></div>`;
