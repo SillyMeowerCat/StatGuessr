@@ -2,7 +2,7 @@
 # StatGuessr
 ## How to Install
 1. Make sure you have [tampermoneky](www.tampermonkey.net/index.php) installed. 
-2. Install either the [script]
+2. Install either the [script](https://github.com/SillyMeowerCat/StatGuessr/raw/refs/heads/main/mini.user.js)
 3. Enjoy!
 
 ## Features
