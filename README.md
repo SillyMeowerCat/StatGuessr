@@ -3,7 +3,7 @@
 ### If you want to be able to view profiles like this. If so, download this script
 ![](images/profile.png)
 ## How to Install
-1. Make sure you have [tampermoneky](www.tampermonkey.net/index.php) installed. 
+1. Make sure you have [tampermoneky](https://www.tampermonkey.net/index.php) installed. 
 2. Install the [script](https://github.com/SillyMeowerCat/StatGuessr/raw/refs/heads/main/mini.user.js)
 3. Enjoy!
 
